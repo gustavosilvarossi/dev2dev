@@ -1,0 +1,27 @@
+{
+  "name": "dev2dev",
+  "version": "1.0.0",
+  "description": "Curso feito pela dev2dev",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavosilvarossi/dev2dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavosilvarossi/dev2dev/issues"
+  },
+  "homepage": "https://github.com/gustavosilvarossi/dev2dev#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
